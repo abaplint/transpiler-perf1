@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "abaplint && rm -rf output && abap_transpile && node output/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdfdsds/sdfdssd.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdfdsds/sdfdssd/issues"
+  },
+  "homepage": "https://github.com/sdfdsds/sdfdssd#readme",
+  "dependencies": {
+    "@abaplint/cli": "^2.66.4",
+    "@abaplint/runtime": "^1.2.10",
+    "@abaplint/transpiler-cli": "^1.2.10"
+  }
+}
